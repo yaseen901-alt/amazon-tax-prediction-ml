@@ -10,7 +10,7 @@ I used Python and scikit-learn to build an end-to-end ML pipeline, including dat
 - Problem type: Regression  
 - Target column: Tax  
 - Model used: RandomForestRegressor  
-- Evaluation metric: R² Score (~0.89)
+- Evaluation metric: R² Score (~0.97)
 
 The project includes feature importance analysis and sample predictions to understand model behavior.
 
