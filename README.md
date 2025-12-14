@@ -1,18 +1,26 @@
-# amazon-tax-prediction-ml
-Machine learning project to predict tax amounts from Amazon order data using Python and Random Forest regression.
+# Amazon Tax Prediction (Machine Learning)
 
-# Amazon Tax Prediction
+( This project focuses on building an end-to-end machine learning pipeline to predict tax amounts from Amazon order data. Using Python and scikit-learn, I performed data loading, cleaning, feature engineering, model selection, and evaluation for a regression problem, with Tax as the target variable. A Random Forest Regressor was trained and evaluated using the R² score, achieving strong predictive performance. The project emphasizes machine learning workflow and model evaluation rather than deep exploratory data analysis and is part of my self-learning journey in data science and machine learning.)
 
-This project predicts the **Tax amount** for Amazon orders using a **machine learning regression model**.
 
-I used Python and scikit-learn to build an end-to-end ML pipeline, including data preprocessing, model training, and evaluation.
+# Problem Type
+- Regression  
+- Target: Tax  
 
-- Problem type: Regression  
-- Target column: Tax  
-- Model used: RandomForestRegressor  
-- Evaluation metric: R² Score (~0.97)
+# Tools & Libraries
+- Python
+- Pandas, NumPy
+- scikit-learn
 
-The project includes feature importance analysis and sample predictions to understand model behavior.
+# Model
+- RandomForestRegressor
+- Evaluation: R² ≈ 0.97
 
-This repository is part of my learning journey in **Data Science, Machine Learning, and Deep Learning**.
+# What This Project Focuses On
+- Data cleaning and preprocessing
+- Feature engineering
+- Model training and evaluation
+
+# Notes
+This project is intentionally focused on machine learning modeling rather than deep exploratory data analysis or visualization. A separate data analysis project is planned to demonstrate EDA skills.
 
